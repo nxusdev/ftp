@@ -1,0 +1,24 @@
+
+Gerador de Key https://codebeautify.org/generate-random-hexadecimal-numbers
+
+1º Criar 4 subdominios e apontar para a vps
+
+2º Subir arquivo via Ftp
+
+
+sudo apt update && apt upgrade -y
+
+init 6
+
+cd AutoInstaladorEvolutionETypebot && chmod +x evolution_e_typebot.sh && ./evolution_e_typebot.sh
+
+
+Acessar painel evolution
+
+https://SEUDOMINIO.com.br/manager
+
+Login: 
+
+API URL:https://SEUDOMINIO.com.br
+
+GLOBAL API KEY: 535e3969aed332195c885efeef59654e
