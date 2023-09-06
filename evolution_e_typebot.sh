@@ -362,7 +362,7 @@ services:
   typebot-builder:
     ports:
       - $portabuilder:3000
-    image: baptistearno/typebot-builder:main
+    image: baptistearno/typebot-builder:2.16.0
     restart: always
     depends_on:
       - typebot-db
@@ -394,7 +394,7 @@ services:
   typebot-viewer:
     ports:
       - $portaviewer:3000
-    image: baptistearno/typebot-viewer:main
+    image: baptistearno/typebot-viewer:2.16.0
     restart: always
     environment:
       - DATABASE_URL=postgresql://postgres:typebot@typebot-db:5432/typebot
